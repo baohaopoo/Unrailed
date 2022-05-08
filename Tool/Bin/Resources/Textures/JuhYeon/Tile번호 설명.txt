@@ -1,0 +1,13 @@
+Tile 0 은 돌 -> Rock1, Rock2, Rock3 Rockhit1, Rockhit2
+Tile 2는 선로 나무판때기 -> RailRoad
+Tile3은 선로 바깥쪽 철조각 ->RailRoad
+Tile4는 선로 중앙 철조각 -> RailRoad
+Tile5는 낙타 -> camel
+Tile6은 낙타다리 ->Camel
+Tile7은 기차역지붕 ->TrainStation
+Tile8은 기차역 옆면 -> TrainStation
+Tile9는 기차역 바닥 -> TrainStation
+Tile10는 시계옆면	-> TrainStation
+Tile11은 시침 -> TrainStation
+
+Tile1은 없음

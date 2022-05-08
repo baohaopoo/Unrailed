@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{bda6d859-30ec-4ff5-a3de-3a011e7ed788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{d02c3faa-1e9b-4357-8a20-ed91fc78fd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{99b0cf9b-e748-4ad8-a6c6-4c7a333205c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI">
+      <UniqueIdentifier>{06bc9b32-3ed1-46d1-a7a3-e6d02406470c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\00. Logo">
+      <UniqueIdentifier>{7761fab9-4ef7-4e8a-9875-8483bb6c1eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\01. Lobby">
+      <UniqueIdentifier>{4643a58b-3002-4543-98d5-7fdd2cf3f3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\01. Lobby\ProgressBar">
+      <UniqueIdentifier>{42b69278-53f1-4fe7-936a-1d4943235ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\01. Lobby\StartButton">
+      <UniqueIdentifier>{5055dc84-b0dc-485b-9f98-c1c161342129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\01. Lobby\UIObject">
+      <UniqueIdentifier>{5e43564f-0fae-41e6-a5b2-96c79de2ac0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\02. Loading">
+      <UniqueIdentifier>{ee475927-037e-4052-baa9-37d06975e109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject">
+      <UniqueIdentifier>{7d0452f0-62d5-4947-9981-5ca56654c6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\99. Camera">
+      <UniqueIdentifier>{227066ce-e21c-46c4-ac58-7c896208ae28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay">
+      <UniqueIdentifier>{866cfc10-19dc-4406-beb0-974053662a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\02. Effect">
+      <UniqueIdentifier>{37f91708-0403-4b97-9ce3-bc3759f52249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\02. Effect\00. Explo">
+      <UniqueIdentifier>{03acf495-84e4-4358-8350-abc924978e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\02. Effect\01. Rain">
+      <UniqueIdentifier>{7bc65dfa-4fa7-4fa0-b4b4-fdb2212e96d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\02. Effect\02. Smoke">
+      <UniqueIdentifier>{618c0706-6f7a-4d27-aa45-4c83e5a5dfad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\01. Lobby\ExitButton">
+      <UniqueIdentifier>{24eb5498-a219-4494-86aa-0df860e99caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\99. Camera\00.LobbyCamera">
+      <UniqueIdentifier>{f7bc9de1-6862-48b1-89d4-cbdc65dea6c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\01. Lobby\UIObject\talkballon">
+      <UniqueIdentifier>{33f3d6c4-79d8-458b-8a68-1bf1c07b9d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\03. Gameplay">
+      <UniqueIdentifier>{9c911a47-807f-47f1-aae6-9e5cd11af0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\03. Gameplay\Bolt">
+      <UniqueIdentifier>{e020752f-e21e-4209-995c-d46a39281f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\03. Gameplay\Life">
+      <UniqueIdentifier>{cc583e2d-676f-4e59-badb-3fca54060732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\03. Gameplay\MenuButton">
+      <UniqueIdentifier>{f846c8fc-4adf-4c65-85e0-04b5b10314de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\03. Gameplay\MenuPop">
+      <UniqueIdentifier>{6640cc80-34d0-45a7-b03c-bf460d73bb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\03. Gameplay\mSign">
+      <UniqueIdentifier>{66ce67f5-924a-4d1e-848a-96f661ddbb22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\98. Loading">
+      <UniqueIdentifier>{8e0a36d0-48a8-4e66-bbc0-8ea8dd9746bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\98. Loading\00. Terrain Base">
+      <UniqueIdentifier>{b306e204-477b-4eed-89b0-cdd4a42dfd65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\00. MapTileCube">
+      <UniqueIdentifier>{f79c515f-cce6-4e25-865b-da723524b4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\04. Terrain">
+      <UniqueIdentifier>{abc21673-d6d9-42be-9ff9-df5b570ebf3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\04. Terrain\00.UI Terrain">
+      <UniqueIdentifier>{c484f7f6-6553-4735-85ef-b62ed2b322e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\01. Resource">
+      <UniqueIdentifier>{0f6f9582-2870-467a-8fc0-861f12343e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\01. Resource\00. Tree">
+      <UniqueIdentifier>{b61238b2-72dd-4851-929d-15343415e751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\01. Resource\01. Rock">
+      <UniqueIdentifier>{6157dd72-be40-47a7-8825-aa81819af578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\06. Netural">
+      <UniqueIdentifier>{7b889650-d7ca-49e0-86b2-76917ea76ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\06. Netural\00. Camel">
+      <UniqueIdentifier>{b8e7fd60-458c-43f1-b0af-3bffb64aca75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\03. Tool">
+      <UniqueIdentifier>{581bc150-068b-4e21-b7f2-8da636cee665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\03. Tool\01. PickAx">
+      <UniqueIdentifier>{f13bbe36-b91a-4e33-b546-63b51bc7037c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\03. Tool\02. Bucket">
+      <UniqueIdentifier>{bbb12773-e865-448d-84de-f353c46574ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\05. Train">
+      <UniqueIdentifier>{b13bc5f0-56ae-462c-999b-df0a4a0be4e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\05. Train\04. Dynamite">
+      <UniqueIdentifier>{33fe20b9-73d2-4160-a64e-6ef798daaeb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\05. Train\03. Water">
+      <UniqueIdentifier>{ac7300d9-6ee9-43ab-a7a2-c84bb7f88b50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\05. Train\02. Rail">
+      <UniqueIdentifier>{52e37d3f-1037-437c-93e6-0ac56e14531a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\05. Train\01. Material">
+      <UniqueIdentifier>{04e3d1fe-f938-4218-bac9-5196938adfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\05. Train\00. Head">
+      <UniqueIdentifier>{a15981a7-90df-48d6-aeaf-1df9375f3317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\02. Material">
+      <UniqueIdentifier>{4c03fa15-05bb-48b2-8af7-dc4f50cf3284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02. Loading">
+      <UniqueIdentifier>{72f68f51-d99e-4480-87b1-b42e2c965ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\02. Loading\Loader">
+      <UniqueIdentifier>{5023e592-e9b9-4e10-a1a3-1501782b680b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\01. Lobby">
+      <UniqueIdentifier>{5ece7552-57c6-4929-95ae-9d20f132adab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\00. Logo">
+      <UniqueIdentifier>{e01c1f87-e0df-4c51-95f9-93c959fad209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\03. GamePlay">
+      <UniqueIdentifier>{d858abb7-79d8-45a2-b248-887cc9b76cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\07. Rail">
+      <UniqueIdentifier>{83928e81-c6e9-4900-aef8-d4765e6b85cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Sound">
+      <UniqueIdentifier>{d73a5c88-14b0-4051-ae4f-e74f5490a372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\03. Player">
+      <UniqueIdentifier>{969712a6-4a39-4624-9396-d1efc0dd0961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\03. Player\Feet">
+      <UniqueIdentifier>{3c0d2f58-fc36-4c15-9445-ab77f1f67ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\02. Material\00. Wood">
+      <UniqueIdentifier>{6fbea951-0bc8-40fd-b145-5e6bd1c8c89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\02. Material\01. Iron">
+      <UniqueIdentifier>{843f7725-9136-4762-ba3d-fb65a28fb1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\03. Tool\00. Axe">
+      <UniqueIdentifier>{ba314b30-3ecd-47aa-a24d-63f47c2826e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\03. Player\Hand">
+      <UniqueIdentifier>{97ff470d-3f6e-4690-8975-f7f79dcd4a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\08.Bird">
+      <UniqueIdentifier>{6fb1fcb9-56c3-4dd4-a6ec-9d4059a15372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\08.Bird\Wing">
+      <UniqueIdentifier>{a0f3a2e5-078f-4c39-be26-fe085d253bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\03. Gameplay\ToolUI">
+      <UniqueIdentifier>{ffa85166-d45d-4036-9ca2-f819392dd7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.UI\03. Gameplay\Background">
+      <UniqueIdentifier>{3b7242ea-33cf-4ba3-8ff3-b631e2063fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Default\99.Defines">
+      <UniqueIdentifier>{e4e2a45d-e113-45fe-9de7-3a5c0e1250f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\03. Tool\03. Dynamite">
+      <UniqueIdentifier>{93daad92-a1a5-44dc-b8c4-95b1fbc27965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\00. MapTileCube\00. WaterCube">
+      <UniqueIdentifier>{dcf3d7ca-9083-45a4-85c2-9eb3d0422566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\07. Rail\Rail_Manager">
+      <UniqueIdentifier>{a23da0aa-cb84-4390-8317-37da44a53fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\06. Netural\01. Meteo">
+      <UniqueIdentifier>{b01fd605-8106-4fd7-869b-68ad37cee8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\09.Giant">
+      <UniqueIdentifier>{3a1b6053-337c-46bc-b9ef-e814eda07d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\09.Giant\Hand">
+      <UniqueIdentifier>{c162f469-5afd-4248-8d34-055407fde582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\04. Ending">
+      <UniqueIdentifier>{b596bb5e-24a6-4403-bf73-b3a9fa427217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\09.Giant\Head">
+      <UniqueIdentifier>{3239e8d7-3f5a-4149-ac38-02f37acedf2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\06. Netural\01. Meteo\Meteo_Giant">
+      <UniqueIdentifier>{f3097390-ef12-4340-a5fb-9065d46dc369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\03. Tool\02. Bucket\BucketProgress">
+      <UniqueIdentifier>{8029a4a4-0e4a-42df-8dd8-c0ae4bbb606b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\00. MapTileCube\01. UnbreakableRock">
+      <UniqueIdentifier>{198e24f9-99e7-4921-b35b-f7f7088aefbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\07. Rail\Rail_Invisible">
+      <UniqueIdentifier>{23edf7f2-d22b-41eb-80f1-4b35608b6dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\07. Rail\Rail_Ending">
+      <UniqueIdentifier>{c6952fb3-b200-481b-beac-e897889e29f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\03. Tool\04. Building">
+      <UniqueIdentifier>{549b5628-7bfc-48ed-85a1-99ff96eb2d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01. GamePlay\03. Tool\04. Building\00. TrainStation">
+      <UniqueIdentifier>{cac839a5-cc7f-4b47-a984-051ed071efff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>98.Default\99.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01.Levels\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\02. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\03. GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Levels\02. Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera_Default.h">
+      <Filter>03.GameObject\99. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>03.GameObject\04. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Lobby.h">
+      <Filter>01.Levels\01. Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Rain.h">
+      <Filter>03.GameObject\02. Effect\01. Rain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cube_Object.h">
+      <Filter>03.GameObject\01. GamePlay\00. MapTileCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ProgressBar.h">
+      <Filter>02.UI\01. Lobby\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StartBtn.h">
+      <Filter>02.UI\01. Lobby\StartButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UIObject.h">
+      <Filter>02.UI\01. Lobby\UIObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BoltUI.h">
+      <Filter>02.UI\03. Gameplay\Bolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\lifeUI.h">
+      <Filter>02.UI\03. Gameplay\Life</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MenuBtn.h">
+      <Filter>02.UI\03. Gameplay\MenuButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MenuPop.h">
+      <Filter>02.UI\03. Gameplay\MenuPop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LogoUI.h">
+      <Filter>02.UI\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LobbyUI.h">
+      <Filter>02.UI\01. Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LoadingUI.h">
+      <Filter>02.UI\02. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Feet.h">
+      <Filter>03.GameObject\03. Player\Feet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_TrainSmoke.h">
+      <Filter>03.GameObject\02. Effect\02. Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Explo.h">
+      <Filter>03.GameObject\02. Effect\00. Explo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LobbyTerrain.h">
+      <Filter>03.GameObject\04. Terrain\00.UI Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ExitBtn.h">
+      <Filter>02.UI\01. Lobby\ExitButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LobbyCamera.h">
+      <Filter>03.GameObject\99. Camera\00.LobbyCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ProgressBarExit.h">
+      <Filter>02.UI\01. Lobby\ProgressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TalkBallon.h">
+      <Filter>02.UI\01. Lobby\UIObject\talkballon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\mSign.h">
+      <Filter>02.UI\03. Gameplay\mSign</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>03.GameObject\03. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bucket.h">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\02. Bucket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PickAx.h">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\01. PickAx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Dynamite.h">
+      <Filter>03.GameObject\01. GamePlay\05. Train\04. Dynamite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Material.h">
+      <Filter>03.GameObject\01. GamePlay\05. Train\01. Material</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Rail.h">
+      <Filter>03.GameObject\01. GamePlay\05. Train\02. Rail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Water.h">
+      <Filter>03.GameObject\01. GamePlay\05. Train\03. Water</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TrainStation.h">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\04. Building\00. TrainStation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Head.h">
+      <Filter>03.GameObject\01. GamePlay\05. Train\00. Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rock.h">
+      <Filter>03.GameObject\01. GamePlay\01. Resource\01. Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tree.h">
+      <Filter>03.GameObject\01. GamePlay\01. Resource\00. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camel.h">
+      <Filter>03.GameObject\01. GamePlay\06. Netural\00. Camel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SoundMgr.h">
+      <Filter>04.Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Axe.h">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\00. Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Material_Iron.h">
+      <Filter>03.GameObject\01. GamePlay\02. Material\01. Iron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Material_Wood.h">
+      <Filter>03.GameObject\01. GamePlay\02. Material\00. Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_LeftFeet.h">
+      <Filter>03.GameObject\03. Player\Feet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_LeftHand.h">
+      <Filter>03.GameObject\03. Player\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player_RightHand.h">
+      <Filter>03.GameObject\03. Player\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bird.h">
+      <Filter>03.GameObject\01. GamePlay\08.Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bird_LeftWing.h">
+      <Filter>03.GameObject\01. GamePlay\08.Bird\Wing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bird_RightWing.h">
+      <Filter>03.GameObject\01. GamePlay\08.Bird\Wing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ToolUI.h">
+      <Filter>02.UI\03. Gameplay\ToolUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dynamite.h">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\03. Dynamite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayBackground.h">
+      <Filter>02.UI\03. Gameplay\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Water_Cube_Object.h">
+      <Filter>03.GameObject\01. GamePlay\00. MapTileCube\00. WaterCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rail_Manager.h">
+      <Filter>03.GameObject\01. GamePlay\07. Rail\Rail_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rail.h">
+      <Filter>03.GameObject\01. GamePlay\07. Rail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Meteo.h">
+      <Filter>03.GameObject\01. GamePlay\06. Netural\01. Meteo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Giant.h">
+      <Filter>03.GameObject\01. GamePlay\09.Giant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Giant_LeftHand.h">
+      <Filter>03.GameObject\01. GamePlay\09.Giant\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Giant_RightHand.h">
+      <Filter>03.GameObject\01. GamePlay\09.Giant\Hand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GameOver.h">
+      <Filter>01.Levels\04. Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Giant_Head.h">
+      <Filter>03.GameObject\01. GamePlay\09.Giant\Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Meteo_Giant.h">
+      <Filter>03.GameObject\01. GamePlay\06. Netural\01. Meteo\Meteo_Giant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train.h">
+      <Filter>03.GameObject\01. GamePlay\05. Train</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BucketProgressBar.h">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\02. Bucket\BucketProgress</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Unbreakable_Rock.h">
+      <Filter>03.GameObject\01. GamePlay\00. MapTileCube\01. UnbreakableRock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rail_Invisible.h">
+      <Filter>03.GameObject\01. GamePlay\07. Rail\Rail_Invisible</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rail_Ending.h">
+      <Filter>03.GameObject\01. GamePlay\07. Rail\Rail_Ending</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01.Levels\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\02. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\03. GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Levels\02. Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera_Default.cpp">
+      <Filter>03.GameObject\99. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>03.GameObject\04. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Lobby.cpp">
+      <Filter>01.Levels\01. Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Rain.cpp">
+      <Filter>03.GameObject\02. Effect\01. Rain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cube_Object.cpp">
+      <Filter>03.GameObject\01. GamePlay\00. MapTileCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ProgressBar.cpp">
+      <Filter>02.UI\01. Lobby\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StartBtn.cpp">
+      <Filter>02.UI\01. Lobby\StartButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UIObject.cpp">
+      <Filter>02.UI\01. Lobby\UIObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BoltUI.cpp">
+      <Filter>02.UI\03. Gameplay\Bolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\lifeUI.cpp">
+      <Filter>02.UI\03. Gameplay\Life</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MenuBtn.cpp">
+      <Filter>02.UI\03. Gameplay\MenuButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MenuPop.cpp">
+      <Filter>02.UI\03. Gameplay\MenuPop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LogoUI.cpp">
+      <Filter>02.UI\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LobbyUI.cpp">
+      <Filter>02.UI\01. Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LoadingUI.cpp">
+      <Filter>02.UI\02. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Feet.cpp">
+      <Filter>03.GameObject\03. Player\Feet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_TrainSmoke.cpp">
+      <Filter>03.GameObject\02. Effect\02. Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Explo.cpp">
+      <Filter>03.GameObject\02. Effect\00. Explo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LobbyTerrain.cpp">
+      <Filter>03.GameObject\04. Terrain\00.UI Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ExitBtn.cpp">
+      <Filter>02.UI\01. Lobby\ExitButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LobbyCamera.cpp">
+      <Filter>03.GameObject\99. Camera\00.LobbyCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ProgressBarExit.cpp">
+      <Filter>02.UI\01. Lobby\ProgressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TalkBallon.cpp">
+      <Filter>02.UI\01. Lobby\UIObject\talkballon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\mSign.cpp">
+      <Filter>02.UI\03. Gameplay\mSign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>03.GameObject\03. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bucket.cpp">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\02. Bucket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PickAx.cpp">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\01. PickAx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Dynamite.cpp">
+      <Filter>03.GameObject\01. GamePlay\05. Train\04. Dynamite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Material.cpp">
+      <Filter>03.GameObject\01. GamePlay\05. Train\01. Material</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Rail.cpp">
+      <Filter>03.GameObject\01. GamePlay\05. Train\02. Rail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Water.cpp">
+      <Filter>03.GameObject\01. GamePlay\05. Train\03. Water</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TrainStation.cpp">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\04. Building\00. TrainStation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Head.cpp">
+      <Filter>03.GameObject\01. GamePlay\05. Train\00. Head</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rock.cpp">
+      <Filter>03.GameObject\01. GamePlay\01. Resource\01. Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tree.cpp">
+      <Filter>03.GameObject\01. GamePlay\01. Resource\00. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camel.cpp">
+      <Filter>03.GameObject\01. GamePlay\06. Netural\00. Camel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SoundMgr.cpp">
+      <Filter>04.Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Axe.cpp">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\00. Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Material_Iron.cpp">
+      <Filter>03.GameObject\01. GamePlay\02. Material\01. Iron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Material_Wood.cpp">
+      <Filter>03.GameObject\01. GamePlay\02. Material\00. Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_LeftFeet.cpp">
+      <Filter>03.GameObject\03. Player\Feet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_LeftHand.cpp">
+      <Filter>03.GameObject\03. Player\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player_RightHand.cpp">
+      <Filter>03.GameObject\03. Player\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bird.cpp">
+      <Filter>03.GameObject\01. GamePlay\08.Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bird_LeftWing.cpp">
+      <Filter>03.GameObject\01. GamePlay\08.Bird\Wing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bird_RightWing.cpp">
+      <Filter>03.GameObject\01. GamePlay\08.Bird\Wing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ToolUI.cpp">
+      <Filter>02.UI\03. Gameplay\ToolUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dynamite.cpp">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\03. Dynamite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayBackground.cpp">
+      <Filter>02.UI\03. Gameplay\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Water_Cube_Object.cpp">
+      <Filter>03.GameObject\01. GamePlay\00. MapTileCube\00. WaterCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rail.cpp">
+      <Filter>03.GameObject\01. GamePlay\07. Rail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rail_Manager.cpp">
+      <Filter>03.GameObject\01. GamePlay\07. Rail\Rail_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Meteo.cpp">
+      <Filter>03.GameObject\01. GamePlay\06. Netural\01. Meteo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Giant.cpp">
+      <Filter>03.GameObject\01. GamePlay\09.Giant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Giant_LeftHand.cpp">
+      <Filter>03.GameObject\01. GamePlay\09.Giant\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Giant_RightHand.cpp">
+      <Filter>03.GameObject\01. GamePlay\09.Giant\Hand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GameOver.cpp">
+      <Filter>01.Levels\04. Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Giant_Head.cpp">
+      <Filter>03.GameObject\01. GamePlay\09.Giant\Head</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Meteo_Giant.cpp">
+      <Filter>03.GameObject\01. GamePlay\06. Netural\01. Meteo\Meteo_Giant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train.cpp">
+      <Filter>03.GameObject\01. GamePlay\05. Train</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BucketProgressBar.cpp">
+      <Filter>03.GameObject\01. GamePlay\03. Tool\02. Bucket\BucketProgress</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Unbreakable_Rock.cpp">
+      <Filter>03.GameObject\01. GamePlay\00. MapTileCube\01. UnbreakableRock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rail_Invisible.cpp">
+      <Filter>03.GameObject\01. GamePlay\07. Rail\Rail_Invisible</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rail_Ending.cpp">
+      <Filter>03.GameObject\01. GamePlay\07. Rail\Rail_Ending</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

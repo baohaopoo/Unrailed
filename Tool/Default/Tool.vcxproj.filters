@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MFCBase">
+      <UniqueIdentifier>{ade09ed9-5447-4dfc-a410-245d406f6c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MFCBase\00. MainFrm">
+      <UniqueIdentifier>{6389d517-d158-49e3-b29c-13ca1c73da64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MFCBase\01. ToolView">
+      <UniqueIdentifier>{7e65851a-6f91-43e1-a104-c6abacdb2233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. FileInfo">
+      <UniqueIdentifier>{2055d034-c831-4504-8aa2-6d40fbeff93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MFCBase\02. ToolForm">
+      <UniqueIdentifier>{670158f8-5c8f-4714-98b8-ce6f856ae0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MFCBase\03. ToolDoc">
+      <UniqueIdentifier>{8dce52d2-7253-4b2f-b318-f7323eacd262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MFCBase\02. ToolForm\00. Dialog">
+      <UniqueIdentifier>{83259275-cfd2-41dc-9a3d-196e1280060f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MFCBase\02. ToolForm\00. Dialog\00. MapTool">
+      <UniqueIdentifier>{06d835f6-1dff-4dd1-98a5-1ff53c6a80c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MFCBase\02. ToolForm\00. Dialog\01. ObjectTool">
+      <UniqueIdentifier>{ebcf2cef-cf39-4313-b712-8c9f5db2c1c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MFCBase\02. ToolForm\00. Dialog\02. PlayerTool">
+      <UniqueIdentifier>{7580ff0d-2aec-4424-b8f0-1d2dbf83bdf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MFCBase\02. ToolForm\00. Dialog\03. EffectTool">
+      <UniqueIdentifier>{4cf4d169-9325-40af-814d-d7a87d20bfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels">
+      <UniqueIdentifier>{b5ca6115-2b20-4186-a174-e25202cd88db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\00.Map">
+      <UniqueIdentifier>{f41490ae-f316-46be-ade8-4d62e7dd4c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\01.Object">
+      <UniqueIdentifier>{ec693aaf-4d13-460d-b04e-768c8d4de4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\02.Player">
+      <UniqueIdentifier>{dff18fce-7b40-4f6d-8671-e6d9f71c2c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\03.Effect">
+      <UniqueIdentifier>{e54d73fe-5789-4ed9-8030-20f017cb3167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject">
+      <UniqueIdentifier>{ec84c94e-839d-47ec-884a-66dd2ea8caa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map">
+      <UniqueIdentifier>{f51db5a1-a9ee-4852-a032-e2436e0ca5f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\01. Object">
+      <UniqueIdentifier>{3c3da6c3-6993-4c1b-b45d-c611cbbd1a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\01. Object\00. Player">
+      <UniqueIdentifier>{f527c71f-4915-4344-97b2-695520540770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\99. Camera">
+      <UniqueIdentifier>{0b8545bc-f742-4a5e-be6b-f8a5cb631d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\99. Camera\01. Camera_Observer">
+      <UniqueIdentifier>{ea61ab96-4216-43b4-b5d0-14ada4306171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\00. MapTerrain">
+      <UniqueIdentifier>{10a2e73e-2adb-4f16-834d-69f4f9daa22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\01. PickingObject">
+      <UniqueIdentifier>{6ad1fb9d-0a2c-45c7-bac9-0307cc6eb0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{4abbf45e-4c09-4fda-934c-9a6fe33e78a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{ab238cb9-52d4-4f77-a72c-a67a3ec1743b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\99. Camera\00. Camera_Default">
+      <UniqueIdentifier>{d9c22b92-21f4-43ec-aee2-e9cf412bab45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\03. Resource">
+      <UniqueIdentifier>{f64cb5d5-6fb0-4af9-bf34-d104260ffd0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\03. Resource\00. Rock">
+      <UniqueIdentifier>{4fc4afed-49bb-48cc-896f-0c3432871f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\03. Resource\01. Tree">
+      <UniqueIdentifier>{785aaecc-da2d-4cc2-bc66-b0c38d47beec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\02. MapTileCube">
+      <UniqueIdentifier>{e606656e-7fca-4852-ae85-dee72ee3b8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\05. Tool">
+      <UniqueIdentifier>{e5d55a9c-024c-4038-bf18-74b352b979d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\05. Tool\02. Bucket">
+      <UniqueIdentifier>{e78412bf-e2f1-40a1-9c56-f39dff6dfe59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\06. Building">
+      <UniqueIdentifier>{78355585-b2b6-4c09-a519-536aa09b4394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\07. Train">
+      <UniqueIdentifier>{48dcea3b-9d06-46ac-a5cd-86a85589cd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\07. Train\00. Head">
+      <UniqueIdentifier>{1a55fcd9-8d85-46ea-b48b-dc4a7652a0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\07. Train\01. Matertial">
+      <UniqueIdentifier>{f13df038-d704-49a6-9ed5-43470331a9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\07. Train\02. Rail">
+      <UniqueIdentifier>{66116028-6225-4cf7-9736-1f8b16540583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\07. Train\03. Water">
+      <UniqueIdentifier>{fdd74929-6901-43d5-9439-97e0bab81136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\07. Train\04. Dynamite">
+      <UniqueIdentifier>{ec9df154-54ac-4134-b965-23632476478a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\08. Netural">
+      <UniqueIdentifier>{3f21a89e-6dda-4293-87b9-6df19427d07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\08. Netural\00. Camel">
+      <UniqueIdentifier>{6ac64ea3-7b36-44ec-95d9-9b1246acace3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\04. Material">
+      <UniqueIdentifier>{b89a1f22-80c8-4aae-a036-78415f7d8f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\06. Building\00. TrainStation">
+      <UniqueIdentifier>{f538291c-c6b1-49b9-9f58-e1ab52b9f4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\09. Rail">
+      <UniqueIdentifier>{00e06e2d-16d1-41e3-9f06-8a49277bfff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\09. Rail\00. Rail_Straight">
+      <UniqueIdentifier>{198713f0-600d-42d8-b7a6-812bbbe1ebe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\09. Rail\01. Rail_Curve">
+      <UniqueIdentifier>{45c33781-4c4b-4dfa-ae6d-464a93bb85ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\05. Tool\00. Axe">
+      <UniqueIdentifier>{03915e31-b237-4a38-9266-3e69cd43c7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\05. Tool\01. PickAxe">
+      <UniqueIdentifier>{797d5539-7528-43d0-b2e3-2bce689058bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\02. MapTileCube\00. Unbreakable_Rock">
+      <UniqueIdentifier>{c1ced761-0ef9-43a5-bb4b-7c930851b582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\04. Material\00. Iron">
+      <UniqueIdentifier>{5b96e51f-bb65-4e94-8453-e0725109627d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\04. Material\01. Wood">
+      <UniqueIdentifier>{8480c36a-d114-4c38-b307-12aac5b0242a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. ToolObject\00. Map\09. Rail\02. Rail_Ending">
+      <UniqueIdentifier>{de6dc983-5869-4225-9206-299c73a5330f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\MainFrm.h">
+      <Filter>00. MFCBase\00. MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Header\Enum.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Header\Fucntion.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Header\Include.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Header\Struct.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Header\Define.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ToolView.h">
+      <Filter>00. MFCBase\01. ToolView</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tab_Map.h">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog\00. MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tab_Object.h">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog\01. ObjectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tab_Player.h">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog\02. PlayerTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tab_Effect.h">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog\03. EffectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dlg.h">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MyForm.h">
+      <Filter>00. MFCBase\02. ToolForm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ToolDoc.h">
+      <Filter>00. MFCBase\03. ToolDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Map.h">
+      <Filter>01. Levels\00.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Object.h">
+      <Filter>01. Levels\01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Player.h">
+      <Filter>01. Levels\02.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Effect.h">
+      <Filter>01. Levels\03.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02. ToolObject\00. Map\00. MapTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PickingObject.h">
+      <Filter>02. ToolObject\00. Map\01. PickingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rock.h">
+      <Filter>02. ToolObject\00. Map\03. Resource\00. Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02. ToolObject\01. Object\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Cube_Object.h">
+      <Filter>02. ToolObject\00. Map\02. MapTileCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Observer.h">
+      <Filter>02. ToolObject\99. Camera\01. Camera_Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Default.h">
+      <Filter>02. ToolObject\99. Camera\00. Camera_Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FileInfo.h">
+      <Filter>03. FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tree.h">
+      <Filter>02. ToolObject\00. Map\03. Resource\01. Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PickAx.h">
+      <Filter>02. ToolObject\00. Map\05. Tool\01. PickAxe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bucket.h">
+      <Filter>02. ToolObject\00. Map\05. Tool\02. Bucket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camel.h">
+      <Filter>02. ToolObject\00. Map\08. Netural\00. Camel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TrainStation.h">
+      <Filter>02. ToolObject\00. Map\06. Building\00. TrainStation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Rail.h">
+      <Filter>02. ToolObject\00. Map\07. Train\02. Rail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Water.h">
+      <Filter>02. ToolObject\00. Map\07. Train\03. Water</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Material.h">
+      <Filter>02. ToolObject\00. Map\07. Train\01. Matertial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Head.h">
+      <Filter>02. ToolObject\00. Map\07. Train\00. Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Train_Dynamite.h">
+      <Filter>02. ToolObject\00. Map\07. Train\04. Dynamite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tool_Defines.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rail_Curve.h">
+      <Filter>02. ToolObject\00. Map\09. Rail\01. Rail_Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rail_Straight.h">
+      <Filter>02. ToolObject\00. Map\09. Rail\00. Rail_Straight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Axe.h">
+      <Filter>02. ToolObject\00. Map\05. Tool\00. Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Unbreakable_Rock.h">
+      <Filter>02. ToolObject\00. Map\02. MapTileCube\00. Unbreakable_Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Material_Wood.h">
+      <Filter>02. ToolObject\00. Map\04. Material\01. Wood</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Material_Iron.h">
+      <Filter>02. ToolObject\00. Map\04. Material\00. Iron</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rail_Ending.h">
+      <Filter>02. ToolObject\00. Map\09. Rail\02. Rail_Ending</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\MainFrm.cpp">
+      <Filter>00. MFCBase\00. MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ToolView.cpp">
+      <Filter>00. MFCBase\01. ToolView</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dlg.cpp">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tab_Effect.cpp">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog\03. EffectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tab_Map.cpp">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog\00. MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tab_Object.cpp">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog\01. ObjectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tab_Player.cpp">
+      <Filter>00. MFCBase\02. ToolForm\00. Dialog\02. PlayerTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ToolDoc.cpp">
+      <Filter>00. MFCBase\03. ToolDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MyForm.cpp">
+      <Filter>00. MFCBase\02. ToolForm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Player.cpp">
+      <Filter>01. Levels\02.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Object.cpp">
+      <Filter>01. Levels\01.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Map.cpp">
+      <Filter>01. Levels\00.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Effect.cpp">
+      <Filter>01. Levels\03.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02. ToolObject\00. Map\00. MapTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PickingObject.cpp">
+      <Filter>02. ToolObject\00. Map\01. PickingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rock.cpp">
+      <Filter>02. ToolObject\00. Map\03. Resource\00. Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02. ToolObject\01. Object\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Cube_Object.cpp">
+      <Filter>02. ToolObject\00. Map\02. MapTileCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Default.cpp">
+      <Filter>02. ToolObject\99. Camera\00. Camera_Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Observer.cpp">
+      <Filter>02. ToolObject\99. Camera\01. Camera_Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FileInfo.cpp">
+      <Filter>03. FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tree.cpp">
+      <Filter>02. ToolObject\00. Map\03. Resource\01. Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PickAx.cpp">
+      <Filter>02. ToolObject\00. Map\05. Tool\01. PickAxe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bucket.cpp">
+      <Filter>02. ToolObject\00. Map\05. Tool\02. Bucket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camel.cpp">
+      <Filter>02. ToolObject\00. Map\08. Netural\00. Camel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TrainStation.cpp">
+      <Filter>02. ToolObject\00. Map\06. Building\00. TrainStation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Head.cpp">
+      <Filter>02. ToolObject\00. Map\07. Train\00. Head</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Material.cpp">
+      <Filter>02. ToolObject\00. Map\07. Train\01. Matertial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Water.cpp">
+      <Filter>02. ToolObject\00. Map\07. Train\03. Water</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Rail.cpp">
+      <Filter>02. ToolObject\00. Map\07. Train\02. Rail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Train_Dynamite.cpp">
+      <Filter>02. ToolObject\00. Map\07. Train\04. Dynamite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rail_Straight.cpp">
+      <Filter>02. ToolObject\00. Map\09. Rail\00. Rail_Straight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rail_Curve.cpp">
+      <Filter>02. ToolObject\00. Map\09. Rail\01. Rail_Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Axe.cpp">
+      <Filter>02. ToolObject\00. Map\05. Tool\00. Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Unbreakable_Rock.cpp">
+      <Filter>02. ToolObject\00. Map\02. MapTileCube\00. Unbreakable_Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Material_Wood.cpp">
+      <Filter>02. ToolObject\00. Map\04. Material\01. Wood</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Material_Iron.cpp">
+      <Filter>02. ToolObject\00. Map\04. Material\00. Iron</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rail_Ending.cpp">
+      <Filter>02. ToolObject\00. Map\09. Rail\02. Rail_Ending</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>98. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>98. Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico" />
+    <Image Include="res\ToolDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+</Project>
